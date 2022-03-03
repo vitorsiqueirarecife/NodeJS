@@ -6,3 +6,5 @@ app.get("/", function (req, res) {
     message: "AWS service working!",
   });
 });
+
+app.listen(3333);
